@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bdrah.saviour.RegisterAct">
+
+    <Button
+        android:id="@+id/BRegidter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_r"
+        android:text="Enter"
+        tools:layout_editor_absoluteX="479dp"
+        tools:layout_editor_absoluteY="746dp" />
+
+    <EditText
+        android:id="@+id/nameregis"
+        android:layout_width="461dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_r"
+        android:ems="10"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/cityregis"
+        android:layout_width="461dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_r"
+        android:ems="10"
+        android:hint="enter city"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="668dp"
+        android:layout_marginBottom="95dp"
+        android:layout_alignBottom="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/emailregis"
+        android:layout_width="461dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_r"
+        android:ems="10"
+        android:hint="enter email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:layout_above="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="461dp"
+        android:layout_height="44dp"
+        android:background="@drawable/shape_r"
+        app:passwordToggleEnabled="true"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="463dp"
+        android:layout_marginTop="138dp"
+        android:layout_below="@+id/BRegidter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passregis"
+            android:layout_width="438dp"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <EditText
+        android:id="@+id/phoneregis"
+        android:layout_width="461dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_r"
+        android:ems="10"
+        android:hint="enter phone"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="607dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

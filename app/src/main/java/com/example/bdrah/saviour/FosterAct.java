@@ -15,7 +15,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 
 
-public class Foster extends AppCompatActivity implements View.OnClickListener  {
+public class FosterAct extends AppCompatActivity implements View.OnClickListener  {
     public static final int REQUEST_CAPTURE =1;
     Button image_button, enter;
     EditText caseDesc, animalName, phone, animalLoc;

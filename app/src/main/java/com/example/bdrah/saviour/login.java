@@ -2,7 +2,6 @@ package com.example.bdrah.saviour;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +16,7 @@ public class login extends AppCompatActivity implements View.OnClickListener  {
    private Button Login;
    private TextView registerLink;
 
-    DatabaseHelper db;
+    DBH db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
